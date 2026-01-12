@@ -59,7 +59,7 @@ int main() {
         for (int i = 0; i < width * height; i++) {
             putchar(i % width ? buffer[i] : '\n');
         }
-
+///this is useless
         A += 0.04;
         B += 0.02;
 
